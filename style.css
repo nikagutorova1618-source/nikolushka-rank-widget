@@ -17,7 +17,7 @@ body{
 
     display:flex;
     align-items:center;
-    gap:18px;
+    gap:14px;
 
     width:max-content;
 
@@ -71,7 +71,7 @@ border-radius:24px;
 
 #change{
 
-    margin-top:6px;
+    margin-top:2px;
 
     color:#5CFF98;
 
