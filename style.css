@@ -81,3 +81,36 @@ border-radius:24px;
     font-weight:700;
 
 }
+@keyframes rrPop {
+
+    0% {
+        opacity:0;
+        transform:translateY(18px) scale(.7);
+    }
+
+    20% {
+        opacity:1;
+        transform:translateY(0) scale(1.15);
+    }
+
+    40% {
+        transform:scale(1);
+    }
+
+    80% {
+        opacity:1;
+    }
+
+    100% {
+        opacity:0;
+        transform:translateY(-8px);
+    }
+
+}
+
+.animateRR{
+
+    animation:rrPop 2.5s ease forwards;
+
+}
+
