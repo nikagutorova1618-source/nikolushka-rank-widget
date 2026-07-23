@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    background: transparent;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+#widget {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+
+    padding: 12px 18px;
+
+    border-radius: 18px;
+
+    background: rgba(255,255,255,.08);
+    backdrop-filter: blur(12px);
+
+    width: fit-content;
+}
+
+#rankIcon {
+    width: 64px;
+    height: 64px;
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+}
+
+#rank {
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#rr {
+    color: #ff8dc8;
+    font-size: 22px;
+    font-weight: 600;
+}
