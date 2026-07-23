@@ -1,2 +1,3 @@
-// Пока пусто.
-// Позже здесь будет автоматическое обновление ранга.
+const change = document.getElementById("change");
+
+change.classList.add("animateRR");
